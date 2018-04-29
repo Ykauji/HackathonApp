@@ -3,7 +3,9 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
-    <string name ="google_maps_key">AIzaSyAlVIB7vMcjESADSLawEJDLLFAWIzWY4co</string>
-    <string name ="google_maps_key_static">AIzaSyC-WUHOsJ5-IvQfVvvUUnI-B04-jpwjphE</string>
+    <string name="google_maps_key">AIzaSyAlVIB7vMcjESADSLawEJDLLFAWIzWY4co</string>
+    <string name="google_maps_key_static">AIzaSyC-WUHOsJ5-IvQfVvvUUnI-B04-jpwjphE</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_create_event">CreateEvent</string>
+    <string name="title_activity_my_saved_activities">MySavedActivities</string>
 </resources>

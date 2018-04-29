@@ -22,8 +22,10 @@ public class MainActivity extends AppCompatActivity {
                     switchToFragmentHome();
                     return true;
                 case R.id.navigation_my_events:
+                    switchToFragment2();
                     return true;
                 case R.id.navigation_profile:
+                    switchToFragmentProfile();
                     return true;
             }
             return false;
@@ -46,11 +48,11 @@ public class MainActivity extends AppCompatActivity {
     }
     public void switchToFragment2() {
         FragmentManager manager = getSupportFragmentManager();
-//        manager.beginTransaction().replace(R.id.mainScreen, new LocalFragment()).commit();
+        manager.beginTransaction().replace(R.id.mainScreen, new EventsActivity()).commit();
     }
     public void switchToFragmentProfile() {
         FragmentManager manager = getSupportFragmentManager();
-//        manager.beginTransaction().replace(R.id.mainScreen, new ProfileFragment()).commit();
+        manager.beginTransaction().replace(R.id.mainScreen, new ProfileFragment()).commit();
     }
 
 }
